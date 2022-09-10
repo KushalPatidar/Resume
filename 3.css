@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#nev{
+    background-color: black;
+    color: aliceblue;
+    width:100vw;
+    position:fixed;
+    padding-top: 10px;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+.li{
+    display: inline-flex;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    /* border: 4px solid red; */
+}
+#name{
+    position: absolute;
+    width:40%;
+    height: 30%;
+    color: burlywood;
+    top:30%;
+    left: 40%;
+    /* background-color: aquamarine; */
+}
+#hello{
+    position: absolute;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 50px;
+}
+.space{
+    width: 100vw;
+    height:120px;
+} 
+#about{
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* top:120px; */
+    /* background-color:aquamarine; */
+    background-image: url("https://st3.depositphotos.com/1332421/18394/i/950/depositphotos_183940064-stock-photo-sky-blue-textured-background-background.jpg?forcejpeg=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:25px;
+    font-size:25px;
+    color:black;
+    font-family: cursive;
+    border: 2px solid red;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.abt{
+    color:black;
+    font-weight:600;
+    padding-bottom: 7px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline;
+    text-decoration-color:red;
+    text-decoration-style:dashed; */
+    /* text-decoration-thickness: 2px; */
+    text-shadow: 2px 2px 4px red;
+    font-family:Copperplate, Papyrus, fantasy;  
+}
+#second{
+    /* background-color:aquamarine; */
+    background-image: url("https://t4.ftcdn.net/jpg/04/20/15/99/240_F_420159938_x5w5gy5VPU4vJzI37Pv36aeVgW3F1ifp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+.edu_logo{
+    width:30vh;
+    height:30vh;
+    display: inline-block;
+}
+#education{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: absolute; */
+     /* border: 2px solid red; */
+     /* top:400px */
+     border-collapse:collapse;
+}
+#clg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 10px solid black;
+    background-color: beige;
+        font-weight: 100;
+}
+#scl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 10px solid black;
+    background-color: beige;
+    padding:7px;
+    font-weight: 100;
+}
+#experience{
+    padding:25px;
+    font-size:20px;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    border: 4px solid black;
+    box-sizing: border-box;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-image: url("https://st3.depositphotos.com/1332421/18394/i/950/depositphotos_183940064-stock-photo-sky-blue-textured-background-background.jpg?forcejpeg=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 500;
+    border-radius: 12px;
+}
+.abt2{
+    color:black;
+    font-weight:600;
+    padding-bottom: 7px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline;
+    text-decoration-color:red;
+    text-decoration-style:dashed; */
+    /* text-decoration-thickness: 2px; */
+    text-shadow: 2px 2px 4px red;
+    font-family:Copperplate, Papyrus, fantasy;  
+}
+.exp{
+    padding : 6px;
+    letter-spacing: 1px;
+}
+.log{
+    width: 60px;
+    height: 60px;
+    /* padding-left: 15 px; */
+    padding-right:  10px ;
+    display: inline-flex;
+}
+#skill{
+    border: 5px solid black;
+    background-image: url("https://st3.depositphotos.com/1332421/18394/i/950/depositphotos_183940064-stock-photo-sky-blue-textured-background-background.jpg?forcejpeg=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+#cnt{
+    background-color:darkslategray;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+.abt77{
+    color:black;
+    font-weight:600;
+    padding-bottom: 7px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline;
+    text-decoration-color:red;
+    text-decoration-style:dashed; */
+    /* text-decoration-thickness: 2px; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
